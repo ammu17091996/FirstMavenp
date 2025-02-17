@@ -13,10 +13,9 @@ public static void details()
 {
 	
 	System.out.println("enter name and age ");
-	Scanner s = new Scanner(System.in)) {
+	Scanner s = new Scanner(System.in);
 		sname=s.nextLine();
 		age=s.nextInt();
-	}
 }
 public static void print()
 {

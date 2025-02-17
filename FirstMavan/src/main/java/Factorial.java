@@ -4,6 +4,9 @@ public class Factorial {
 
 	static int fact=1;
 	static int n;
+	System.out.println("enter a number");
+	Scanner s = new Scanner(System.in);
+n=s.nextInt();
 	public static void main(String[] args) 
 	{
 	Factorial.numberfact();
@@ -13,9 +16,7 @@ public class Factorial {
 	public static void numberfact()
 	{
 		
-		System.out.println("enter a number");
-		s = new Scanner(System.in);
-	n=s.nextInt();
+		
 	for(int i=1;i<=n;i++)
 		fact=fact*i;
 	}
